@@ -5,11 +5,21 @@
 --viridian-green: #02979dff;
 --laurel-green: #b7c8aaff;
 --teal-2: #1a8286ff;
-};
+}
+* {
+    box-sizing: border-box;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
 img {
-    width: 10%;
-    border: 5px solid var(--vivid-tangerine);
-  }
+    width: 75vw;
+}
 
 body {
     flex-direction: row;
@@ -28,7 +38,7 @@ body {
     margin: auto;
     width: 50%;
     border: 3px solid black;
-    padding: 5 0 0 15;
+    padding: auto;
 }
 
 @media (max-width: 600px) {
