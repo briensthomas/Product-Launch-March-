@@ -19,6 +19,7 @@ body, html {
 
 img {
     width: 75vw;
+    
 }
 
 body {
@@ -41,6 +42,9 @@ body {
     padding: auto;
 }
 
+.hide {
+    display: none;
+}
 @media (max-width: 600px) {
     body {
         flex-direction: column;
